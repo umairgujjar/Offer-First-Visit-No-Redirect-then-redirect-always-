@@ -1,4 +1,3 @@
-<script type="text/javascript">
 function redirect(){
 var thecookie = readCookie('doRedirect');
 if(!thecookie){
@@ -34,4 +33,3 @@ if(!thecookie){
     redirect();
    createCookie('doRedirect','true','999');
 }
-</script>
